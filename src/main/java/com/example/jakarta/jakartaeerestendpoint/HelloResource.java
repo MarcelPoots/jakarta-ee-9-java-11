@@ -1,12 +1,11 @@
 package com.example.jakarta.jakartaeerestendpoint;
 
+
 import com.example.jakarta.jakartaeerestendpoint.beans.HelloBean;
-
-import javax.inject.Inject;
-import javax.ws.rs.GET;
-import javax.ws.rs.Path;
-import javax.ws.rs.Produces;
-
+import jakarta.inject.Inject;
+import jakarta.ws.rs.GET;
+import jakarta.ws.rs.Path;
+import jakarta.ws.rs.Produces;
 
 @Path("/hello-world")
 public class HelloResource {
